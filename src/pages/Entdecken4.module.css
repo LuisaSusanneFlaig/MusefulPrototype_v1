@@ -1,0 +1,110 @@
+.textChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro-100);
+  width: 364px;
+  height: 410px;
+}
+.pacManJapPakkuman1 {
+  margin: 0;
+}
+.weiterlesen {
+  text-decoration: underline;
+}
+.esErschienenZahlreicheKlone {
+  margin: 0;
+}
+.pacManJapPakkuman {
+  position: absolute;
+  top: 63.1px;
+  left: 28px;
+  line-height: 150%;
+  display: inline-block;
+  width: 326px;
+  height: 328px;
+}
+.entdecken5Child,
+.text {
+  position: absolute;
+  top: 130px;
+  left: 33px;
+  width: 364px;
+  height: 410px;
+}
+.entdecken5Child {
+  top: 570px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gainsboro-100);
+  height: 110px;
+}
+.header,
+.pacMan,
+.pacMan1 {
+  position: absolute;
+  top: 45px;
+  left: 36px;
+}
+.header {
+  top: 0;
+  left: 0;
+  background: linear-gradient(172.25deg, #fd1eda, #6834aa);
+  width: 432px;
+  height: 120px;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-cormorant-garamond);
+}
+.cameraButtonIcon,
+.closeButtonIcon {
+  position: absolute;
+  top: 860px;
+  left: 350px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.cameraButtonIcon {
+  top: 858px;
+  left: 38px;
+}
+.chat {
+  position: relative;
+  font-weight: 500;
+}
+.loginButton,
+.saveButtonIcon {
+  position: absolute;
+  cursor: pointer;
+}
+.loginButton {
+  top: 860px;
+  left: 93px;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gray-200);
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-3xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.saveButtonIcon {
+  top: 156px;
+  left: 343px;
+  width: 24px;
+  height: 24px;
+}
+.entdecken5 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #4252dd, #6834aa);
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--dark-ink);
+  font-family: var(--font-quicksand);
+}

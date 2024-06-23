@@ -1,0 +1,73 @@
+.sendButtonIcon {
+  position: absolute;
+  top: 607px;
+  left: 351px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.header,
+.pacMan {
+  position: absolute;
+  top: 45px;
+  left: 37px;
+}
+.header {
+  top: 0;
+  left: 0;
+  background: linear-gradient(172.25deg, #fd1eda, #6834aa);
+  width: 432px;
+  height: 120px;
+}
+.cameraButtonIcon,
+.closeButtonIcon {
+  position: absolute;
+  top: 540px;
+  left: 351px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.cameraButtonIcon {
+  top: 538px;
+  left: 48px;
+}
+.zeigMir {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 127px;
+}
+.micFill0Wght400Grad0Opsz24Icon {
+  position: absolute;
+  top: 5px;
+  left: 252px;
+  width: 30.4px;
+  height: 30px;
+  overflow: hidden;
+}
+.chat {
+  position: absolute;
+  top: 607px;
+  left: 42px;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-gray-200);
+  width: 289px;
+  height: 40px;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-quicksand);
+}
+.entdecken7 {
+  width: 100%;
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #4252dd, #6834aa);
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--dark-ink);
+  font-family: var(--font-cormorant-garamond);
+}

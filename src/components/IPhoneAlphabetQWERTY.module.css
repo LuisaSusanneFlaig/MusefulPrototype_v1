@@ -1,0 +1,46 @@
+.bottomRow,
+.middleRow,
+.topRow {
+  position: absolute;
+  width: calc(100% - 115px);
+  top: 116px;
+  right: 57px;
+  left: 58px;
+  height: 43px;
+}
+.middleRow,
+.topRow {
+  width: calc(100% - 39px);
+  top: 62px;
+  right: 17.2px;
+  left: 21.8px;
+}
+.topRow {
+  width: calc(100% - 11px);
+  top: 8px;
+  right: 6px;
+  left: 5px;
+}
+.keysIcon,
+.keysIcon1 {
+  position: absolute;
+  top: 116px;
+  border-radius: var(--br-8xs);
+  width: 42px;
+}
+.keysIcon {
+  left: 3px;
+  height: 43px;
+}
+.keysIcon1 {
+  right: 3px;
+  height: 42px;
+}
+.iphoneAlphabetQwerty {
+  align-self: stretch;
+  position: relative;
+  backdrop-filter: blur(70px);
+  height: 169px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
