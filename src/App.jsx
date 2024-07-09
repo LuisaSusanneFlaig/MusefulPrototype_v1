@@ -30,6 +30,7 @@ import Onboarding31 from "./pages/Onboarding3";
 import Onboarding4 from "./pages/Onboarding4";
 import Onboarding1 from "./pages/Onboarding1";
 import Onboarding3 from "./pages/Onboarding31";
+import Onboarding5 from "./pages/Onboarding51";
 
 function App() {
   const action = useNavigationType();
@@ -147,6 +148,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/onboarding9":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -190,6 +195,7 @@ function App() {
       <Route path="/onboarding7" element={<Onboarding4 />} />
       <Route path="/onboarding8" element={<Onboarding1 />} />
       <Route path="/onboarding31" element={<Onboarding3 />} />
+      <Route path="/onboarding9" element={<Onboarding5 />} />
     </Routes>
   );
 }
